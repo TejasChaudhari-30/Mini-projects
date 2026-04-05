@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2</title>
+    <style>
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background-color: black;
+            font-size: 40px;
+            color: white;
+            height: 10vmin;
+
+        }
+        
+          .container{
+           
+            display:flex;
+            justify-content: center;
+            /* align-items: center; */
+            /* height: 20vmin; */
+
+            /* flex-wrap: wrap; */
+           
+           
+              
+
+
+          }
+        body{
+            background-color:azure;
+
+        }
+        .choice:hover{
+            opacity: 80%;
+background-color:blue;      
+  }
+
+        .choice{ padding: 7px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            border-radius: 50%;
+
+
+           
+
+
+        }
+        #msg{   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+           
+        }
+        .msg{
+            
+            /* text-align: center; */
+           color: white;
+            background-color: black;
+            border-radius: 20px;
+        }
+       
+       img{
+        border-radius: 50%;
+         width:130px;
+            height: 130px;
+        object-fit: cover;
+       }
+       .score{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        /* justify-content: space-evenly; */
+      
+       }
+       .scoreboard{
+
+        display: flex;
+                justify-content: center;
+        /* align-items: center; */
+        position: relative;
+        top :-50px;
+        gap: 5rem;
+        left:50px
+        
+       }
+       p{
+        font-size: 50px;
+       }
+    </style>
+</head>
+<body>
+
+    <h1 >
+        <b>Rock Paper Scissors</b>
+    </h1>
+    <div class="container">
+  <div class="choice" id="rock">
+    <img src="Screenshot 2025-09-20 122014.png" alt="rock">
+
+  </div >
+<div class="choice" id="scissor">
+    <img src="Screenshot 2025-09-20 122250.png" alt="rock">
+    </div>
+   
+   <div class="choice" id="paper">
+    <img src="Screenshot 2025-09-20 122259.png" alt="rock">
+    </div>
+</div >
+
+<div  class="score">
+    <p class="userscore">0</p>
+     <p class="compscore">0</p>
+   
+    
+</div>
+<div class="scoreboard"> 
+   
+ <p> YOU</p>
+<p>COMPUTER</p>
+</div>
+
+<div id="msg">
+   <p class="msg" > Play a move</p>
+</div>
+   <script src="script.js"></script>
+    
+</body>
+</html>
