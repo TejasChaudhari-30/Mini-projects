@@ -50,11 +50,7 @@ node script.js
 
 ---
 
-## 📸 Screenshots
 
-(Add screenshots of your project here)
-
----
 
 ## 📚 How It Works
 
@@ -83,8 +79,4 @@ This project is created for learning and practice purposes.
 
 ---
 
-## 📬 Contact
 
-(Add your name or GitHub profile link here)
-
----
